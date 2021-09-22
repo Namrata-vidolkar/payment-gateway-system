@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+.wrapper {
+  background: url(Fani-1.jpg) no-repeat;
+  background-size: cover;
+  height: 85vh;
+}
+.wrapper .text {
+  position: absolute;
+  top: 18%;
+  user-select: none;
+}
+.text p {
+  color: black;
+  font-size: 27px;
+  font-family: "Times New Roman', Times, serif";
+  width: 400px;
+  padding-left: 20px;
+  font-weight: bold;
+}
+
+p:hover {
+  color: #fde317;
+}
+.wrapper .righttext {
+  position: absolute;
+  top: 17%;
+  user-select: none;
+  width: 1300px;
+  text-align: right;
+}
+.righttext .h1 {
+  font-family: "Times New Roman', Times, serif";
+  padding-left: 350px;
+}
+h1:hover {
+  color: #fde317;
+}
+.wrapper .lefttext {
+  position: absolute;
+  margin-left: 980px;
+  margin-top: 20px;
+  width: 300px;
+  font-family: "Times New Roman', Times, serif";
+  font-size: 20px;
+  color: white;
+  text-align: right;
+}
+
+.navbar {
+  position: fixed;
+  height: 92px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgb(226, 43, 144);
+}
+.navbar .logo {
+  width: 140px;
+  height: 92px;
+  margin-left: 70px;
+}
+.navbar ul {
+  float: right;
+  margin-right: 20px;
+}
+.navbar ul li {
+  list-style: none;
+  margin: 0 8px;
+  display: inline-block;
+  line-height: 80px;
+  margin-top: 5px;
+}
+.navbar ul li a {
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  font-weight: bold;
+  padding: 6px 13px;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+.navbar ul li a:hover {
+  background: rgb(247, 247, 28);
+  border-radius: 2px;
+}
+
+.form-group {
+  background-color: rgb(226, 43, 144);
+  border-radius: 700px 5px 700px 5px;
+  width: 560px;
+  height: 515px;
+  margin-left: 420px;
+  margin-top: 92px;
+  padding-top: 18px;
+}
+.inpt {
+  background-color: #fde317;
+  width: 420px;
+  height: 57px;
+  color: white;
+  border-radius: 1000px 20px 1000px 20px;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 220px;
+  margin-left: 70px;
+}
+
+.button {
+  background-color: #fde317;
+  border: none;
+  color: white;
+  width: 30px;
+  font-size: 40px;
+  color: #000;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  margin-right: 150px;
+}
+
+.form-group .p {
+  text-align: left;
+  position: absolute;
+}

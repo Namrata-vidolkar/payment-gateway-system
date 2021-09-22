@@ -1,0 +1,52 @@
+.aboutus {
+  position: fixed;
+  width: 100%;
+  color: black;
+  margin-left: 90px;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  margin-top: 150px;
+}
+.content {
+  margin-right: 90px;
+  padding-top: 230px;
+  margin-left: 90px;
+}
+
+.navbar {
+  position: fixed;
+  height: 90px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgb(46, 13, 192);
+}
+.navbar .logo {
+  width: 140px;
+  height: 91px;
+  margin-left: 70px;
+}
+.navbar ul {
+  float: right;
+  margin-right: 20px;
+}
+.navbar ul li {
+  list-style: none;
+  margin: 0 8px;
+  display: inline-block;
+  line-height: 60px;
+}
+.navbar ul li a {
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  font-weight: bold;
+  padding: 6px 13px;
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  background: rgb(247, 247, 28);
+  border-radius: 2px;
+}
